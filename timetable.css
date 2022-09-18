@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0
+}
+.table_div{
+    width:850px;
+    height:100px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+th, td {
+    padding: 40px;
+    background-color: peru;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  @media only screen and (max-width: 767px) {
+    th, td {
+        padding: 10px;
+      }
+      .table_div{
+        width:100%;
+        height:300px;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    
+  }
+  @media only screen and (min-width: 767px) and (max-width: 991px){
+    th, td {
+        padding: 30px;
+      }
+      .table_div{
+        width:100%;
+        height:300px;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+  }
